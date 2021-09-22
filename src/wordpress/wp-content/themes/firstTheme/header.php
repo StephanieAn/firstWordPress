@@ -15,3 +15,4 @@
             <p class="header_subtitle">Welcome to aurora borealis fan</p>
        </div>
    </header> 
+   <main>
