@@ -1,0 +1,72 @@
+/*
+* Theme Name: firstWordpress
+* Description: my first wordpress theme
+* Author: Stéphanie Antignac
+* Author URI: https://github.com/StephanieAn
+* Version: 1.0
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: rgb(5,36,110);
+    background: linear-gradient(90deg, rgba(5,36,110,1) 0%, rgba(6,111,116,1) 100%); 
+}
+.header__h1{
+    padding: 0.5rem;
+    color: white;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.header_subtitle{
+    padding: 0rem 0rem 0.5rem 0rem;
+    color: white;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__input{
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    height: 2rem;
+    border: 1px solid rgba(6,111,116,1);
+    border-radius: 5px;
+}
+.form__submit{
+    display: inline-block;
+    justify-content: center;
+    background-color: rgba(6,111,116,1);
+    height: 2.5rem;
+    border: 1px solid rgba(6,111,116,1);
+    border-radius: 5px;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.posts, .form{
+    margin: 5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+footer h6{
+    padding: 2rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.5rem;
+    font-weight: 100;
+    text-align: center;
+}
