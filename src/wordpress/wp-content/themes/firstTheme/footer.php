@@ -1,4 +1,6 @@
+        </div>
     </main>
+
     <footer>
         <div class="footer">
             <h6>This is the footer of this page</h6>

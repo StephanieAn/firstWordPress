@@ -8,11 +8,14 @@
     <title>Aurora borealis</title>
     <?php wp_head();?>
 </head>
-<body>
+<body <?php body_class(); ?>>
    <header>
         <div class="header">
             <h1 class="header__h1">Aurora borealis</h1>
             <p class="header_subtitle">Welcome to aurora borealis fan</p>
        </div>
+       <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
    </header> 
    <main>
+        <?php get_template_part( 'parts/form' ); ?>
+        <div class="post">

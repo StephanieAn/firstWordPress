@@ -15,6 +15,7 @@
 body{
     background: rgb(5,36,110);
     background: linear-gradient(90deg, rgba(5,36,110,1) 0%, rgba(6,111,116,1) 100%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header__h1{
     padding: 0.5rem;
@@ -31,13 +32,50 @@ body{
     text-align: center;
 }
 
-.form{
+.menu {
+    /* background-color: white; */
+    margin: 1rem 35rem 1rem 35rem;
+    border: 1px solid white;
+    border-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-.form__input{
-    margin: 2rem 0.5rem 2rem 0.5rem;
+.menu li {
+    display: inline-block;
+    margin: 0.6rem;
+}
+.page-item-16{
+    color: white;
+}
+.page-item-19 {
+    list-style-type: none;
+    color:white;
+}
+.menu a {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+}
+
+.form__image, .form {
+    display: flex;
+    flex-direction: column;
+}
+.form h2{
+    margin-top: 1.5rem;
+    color: rgba(6,111,116,1);
+    text-align: center;
+}
+
+.form__input, .form__title, .form__desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 1rem 0.5rem 1rem;
     padding: 0rem 0.5rem 0rem 0.5rem;
     height: 2rem;
     border: 1px solid rgba(6,111,116,1);
@@ -50,16 +88,24 @@ body{
     height: 2.5rem;
     border: 1px solid rgba(6,111,116,1);
     border-radius: 5px;
-    padding: 0rem 0.5rem 0rem 0.5rem;
+    margin: 1rem 1rem 1.5rem 1rem;
+    padding: 1rem 0.5rem 0rem 0.5rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 1.5rem; */
+    /* text-align: center; */
 }
 
 .posts, .form{
-    margin: 5rem;
+    margin: 5rem 25rem 5rem 25rem;
+    width: auto;
     border: 1px solid white;
     border-radius: 5px;
     background-color: white;
+}
+
+main {
+    color: rgba(6,111,116,1);
 }
 
 footer h6{
